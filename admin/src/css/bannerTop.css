@@ -1,0 +1,70 @@
+
+*{
+    font-family:poppins, serif;
+}
+
+.bannerTop{
+    position:relative;
+}
+
+.bannerHeading{
+    background-color: rgb(6, 6, 144);
+    color: white;
+    height: 120px;
+    
+    font-weight: 700;
+}
+h1{
+    padding-left: 20vmin;
+    padding-top: 2rem;
+}
+.square-box{
+    height: 2rem;
+    width: 15rem;
+    border: none;
+    border-radius: 1px;
+    display: flex;
+    position: absolute;
+    top:95px;
+    right: 8rem;
+    border-top-right-radius:5px;
+    background-color: rgb(255, 255, 255);
+}
+.line{
+    height: 1px;
+    width: 15rem;
+    border: none; 
+    display: flex;
+    position: absolute;
+    top:5.5rem;
+    right: 8rem;
+    border-top-right-radius:5px;
+    background-color: rgb(255, 255, 255);
+}
+.traingle-box{
+    height:2rem;
+    width: 10rem;
+    transform: skewX(-60deg);
+    
+    display: flex;
+    position: absolute;
+    top:95px;
+    right: 15rem;
+   
+    background-color: rgb(255, 255, 255);
+}
+.userText{
+    position: absolute;
+    top:95px;
+    right: 13rem;
+}
+.color-bold{
+    color: rgb(4, 4, 117);
+    font-weight: 700;
+    font-size:1.4rem;
+}
+.bold{
+    color: rgb(4, 4, 117);
+    font-weight: 700;
+    font-size:1.4rem;
+}
