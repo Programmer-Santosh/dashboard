@@ -3,3 +3,14 @@
     background-color: rgb(44, 44, 44);
     margin-top: 3px;
 }
+.full-banner{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.adminInfo{
+    width:20%
+}
+.overV{
+    width:70%
+}

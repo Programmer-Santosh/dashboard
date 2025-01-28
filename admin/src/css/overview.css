@@ -1,0 +1,67 @@
+.cardDesign{
+    font-family: poppins serif;
+    font-weight: 700;
+    background-image: linear-gradient(rgb(235, 186, 8), rgb(255, 77, 0)) ;
+    width: 20rem;
+    height: 150px;
+    border-radius: 15px;
+  margin-top: 20px;
+  margin-left:10px;
+  
+  position:relative;
+  border: 2px solid rgb(235, 175, 10);
+
+  
+}
+.cardDesign:hover{
+    
+    box-shadow: 10px 10px 5px lightblue;
+}
+.cardDesign:hover .title{
+   left: 30px;
+   transition-duration: 2s;
+}
+
+.cardDesign i{
+   font-size: 50px;
+  position: absolute;
+  top: 20px;
+  right:20px;
+  color:rgb(255, 255, 255)
+}
+
+
+.cardDesign:hover i{
+    scale: 1.2;
+    top: 25px;
+    right:25px;
+   transform: rotate(-30deg);
+    transition-duration: 3s;
+    transition: width 2s, height 2s, transform 2s;
+ 
+}
+.title{
+    position:absolute;
+    font-size: 30px;
+    bottom: 10px;
+    left:20px;
+    color:rgb(255, 255, 255)
+}
+.count{
+position: absolute ;
+top: 10px;
+left:20px;
+font-size: 70px;
+color:rgb(255, 255, 255)
+}
+.cardDesign:hover .count{
+    left:30px;
+    transition-duration: 2s;
+  
+}
+.overview{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    margin-top:20px;
+}
