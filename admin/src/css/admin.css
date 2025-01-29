@@ -79,6 +79,23 @@ h4{
      padding:8px;
      border-radius: 10px;
      max-width: 270px;
-     display: flex;
+
+
+     
+} 
+.outputMessage{
+    display: flex;
      justify-self: right;
+} 
+button{
+    background-color: rgb(5, 5, 175);
+    height:30px;
+    color:white;
+    font-weight:600;
+    width:150px;
+    border-radius:20px;
+    border:2px solid green;
+   position:absolute;
+   bottom: 20px;
+   right: 75px;
 }

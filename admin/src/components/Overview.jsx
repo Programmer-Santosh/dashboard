@@ -42,7 +42,7 @@ const Overview = () => {
         overviewTitles[i].courses?.length ||
         0;
 
-      cards.push(
+      cards.push(<div>
         <div className="cardDesign" key={i}>
           <div className="title">{overviewTitles[i].title}</div>
           <div className="servicesCount count">
@@ -51,6 +51,7 @@ const Overview = () => {
           <i className="icon">
             {overviewTitles[i].icon}
           </i>
+        </div>
         </div>
       );
     }

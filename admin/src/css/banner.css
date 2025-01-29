@@ -1,3 +1,4 @@
+
 .hr-line{
     height: 2px ;
     background-color: rgb(44, 44, 44);
@@ -8,9 +9,27 @@
     flex-direction: row;
     justify-content: center;
 }
-.adminInfo{
-    width:20%
+
+
+@media screen and (max-width: 1050px) and (min-width:200px){
+    .full-banner{
+        display:flex;
+        flex-direction: column;
+    }
+    .adminInfo{
+        width:100%;
+    }
+    .overV{
+        width:100%
+    }
 }
-.overV{
-    width:70%
+@media  screen and (min-width:1024px)and (max-width:1250px){
+    .full-banner{
+        justify-content: space-around;
+    }
+}
+@media  screen and (min-width:1251px){
+    .full-banner{
+        justify-content: space-around;
+    }
 }

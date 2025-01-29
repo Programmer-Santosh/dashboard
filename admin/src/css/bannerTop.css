@@ -68,3 +68,17 @@ h1{
     font-weight: 700;
     font-size:1.4rem;
 }
+@media screen and (max-width: 550px) and (min-width:200px){
+    .traingle-box{
+right:10rem;
+    }
+    .line{
+right:2rem;
+    }
+    .square-box{
+        right:2rem;
+    }
+    .userText{
+        right:5rem;
+    }
+}
